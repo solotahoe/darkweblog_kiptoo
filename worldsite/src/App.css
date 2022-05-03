@@ -1,0 +1,561 @@
+/* signuppage formating start */
+::-moz-selection {
+  /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: #1b55e2;
+  background: #060818;
+}
+.SingInUpPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #060818;
+}
+.SignInCon {
+  background: rgb(6, 8, 24);
+  max-width: 480px;
+  align-self: center;
+  width: 100%;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 6px 10px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 18px 0px, rgba(0, 0, 0, 0.2) 0px 3px 5px -1px;
+  border-radius: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+.SignInCon h1 {
+  font-size: 32px;
+  color: #bfc9d4;
+  margin: 0px 0px 8px;
+  font-family: quicksand, sans-serif;
+  text-align: center;
+}
+.SignInCon p {
+  font-size: 13px;
+  color: rgb(136, 142, 168);
+  font-weight: 600;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.Email_icon_holder input {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 6px;
+  min-width: 50px;
+  max-width: 635px;
+  width: 100%;
+  transition: all 0.2s ease-in-out 0s;
+  color: rgb(0, 150, 136);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 13px 35px 13px 46px;
+  background: #1b2e4b;
+  outline: none;
+  border: 1px solid #1b2e4b;
+}
+.SignInCon label {
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(191, 201, 212);
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+.SignInCon button {
+  align-self: center;
+  width: 100%;
+  padding: 11px 14px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-top: 36px;
+  transition: all 0.5s ease-in;
+}
+.SignInCon button:hover {
+  transform: translateY(-3px);
+}
+.signup-link {
+  font-size: 14px;
+  color: rgb(191, 201, 212);
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+.CreateAccountLink {
+  color: rgb(0, 150, 136);
+  border-bottom: 1px solid;
+  font-weight: 600;
+}
+.CreateAccountLink:hover {
+  color: rgb(0, 150, 136);
+  border-bottom: 1px solid;
+}
+.Email_icon_holder {
+  position: relative;
+}
+.actual_icon {
+  position: absolute;
+  font-size: 16px;
+  top: 35%;
+  left: 3%;
+}
+.fa-user-o {
+  color: white;
+}
+.fa-lock {
+  color: WHITE;
+}
+.fa-eye {
+  color: #f5f1f1b7;
+  position: absolute;
+  top: 35%;
+  right: 4%;
+  cursor: pointer;
+}
+.fa-eye:hover {
+  color: #fff;
+}
+.fa-envelope-o {
+  color: WHITE;
+}
+/* signuppage formating end */
+
+/* home page styling start */
+.homePage {
+  background: rgb(39, 232, 152);
+  width: 100%;
+  height: 25vh;
+}
+.PageContent {
+  width: 100%;
+  background: rgb(39, 232, 152);
+}
+/* home page styling end */
+
+/* horizontal menus start */
+
+.navbar {
+  background: #0e1726;
+  color: #fafafa;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: quicksand sans-serif;
+}
+.navbar a:nth-child(1) {
+  border-right: 1px solid #515365;
+}
+.lastOne {
+  border-right: none !important;
+}
+
+/* .dropdown {
+  float: left;
+  overflow: hidden;
+} */
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  position: relative;
+  border-right: 1px solid #515365;
+  font-family: quicksand sans-serif;
+}
+
+/* .navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+} */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #0e1726;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  color: #0e1726;
+  white-space: nowrap;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 4px 24px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #888ea8;
+  letter-spacing: 0px;
+  line-height: 24px;
+}
+
+.dropdown-content a:hover {
+  background-color: none;
+  color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+.menus_icons {
+  margin-right: 5px;
+  font-size: 22px;
+  color: WHITE;
+}
+.menus_icons2 {
+  margin-right: 5px;
+  font-size: 20px;
+  color: #1b55e2;
+  position: absolute;
+  right: 90%;
+  top: 30%;
+}
+/* horizontal menus end */
+
+/* homePage Styling end */
+/* header content styling start */
+.Page_header {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerContent2 {
+  display: flex;
+  align-items: center;
+}
+img.bitcoin_header_image {
+  width: 37px;
+  height: 37px;
+  object-fit: contain;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.headerContent2 p {
+  color: #888ea8;
+  font-size: 13px;
+  font-family: quicksand, sans-serif;
+}
+.Menu_addfundsButton {
+  transition: all 0.2s ease-in-out;
+}
+.Menu_addfundsButton:hover {
+  transform: translateY(-5px);
+}
+/* header content styling end */
+
+/* actual home styling start */
+.content_centered {
+  width: 95%;
+  margin: 0 auto;
+}
+.content_centered h3 {
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 26px;
+  color: #bfc9d4;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.colored_background {
+  background: #0e1726;
+  color: #fafafa;
+  border-radius: 10px;
+  margin: 0px 0px 8px;
+  color: #ebedf2;
+  padding: 30px;
+  font-family: quicksand, sans-serif;
+  width: 95%;
+  margin: 0 auto;
+  text-align: left;
+  /* display: flex;
+  align-items: center; */
+}
+.strong_welcome {
+  width: 100% !important;
+  font-size: 16px;
+  padding: 0px 0px 0px;
+  color: #ffffff;
+  font-family: quicksand, sans-serif;
+  text-transform: uppercase;
+}
+.push_downwards {
+  margin-top: 20px;
+}
+.push_downwards p {
+  color: #ebedf2;
+  margin: 0px 0px 10px;
+  font-size: 11.5px;
+  font-family: quicksand, sans-serif;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.last_part {
+  text-transform: uppercase;
+  font-size: 11.5px;
+  font-family: quicksand, sans-serif;
+}
+.lowercaseUserName {
+  text-transform: lowercase;
+}
+.push_downwards h4 {
+  color: #ebedf2;
+}
+.push_downwards h3 {
+  font-size: 19px;
+  font-family: quicksand, sans-serif;
+}
+
+/* actual home styling end */
+/* footer start */
+.footer {
+  font-size: 13px;
+  font-family: quicksand, sans-serif;
+  color: #888ea8;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+/* footer end 
+/* table start */
+.table > thead > tr > th {
+  color: #d3d3d3;
+  border: 2px solid #0e1726 !important;
+  text-transform: uppercase;
+}
+.table {
+  color: #d3d3d3;
+  border: 2px solid #0e1726;
+  font-size: 12px;
+}
+.table thead tr {
+  border: 2px solid #0e1726 !important;
+}
+.table tr {
+  border: 2px solid #0e1726;
+  color: #bfc9d4;
+  font-family: quicksand, sans-serif;
+}
+.table td {
+  color: #bfc9d4;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+}
+tr.table_last_row {
+  text-transform: uppercase;
+  padding: 12px;
+  color: #e0e6ed;
+  font-size: 14px;
+  font-family: quicksand, sans-serif;
+}
+.liveDot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 auto;
+  background: green;
+  vertical-align: center;
+}
+.Buy_now_btn {
+  border: 1px solid #1b55e2 !important;
+  padding: 12px;
+  font-size: 13px;
+  font-family: quicksand sans-serif;
+  background-color: transparent;
+  box-shadow: none;
+  font-weight: normal;
+  white-space: normal;
+  word-wrap: break-word;
+  cursor: pointer;
+  color: #bfc9d4;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.Buy_now_btn:hover {
+  color: #fff !important;
+  background-color: #1b55e2;
+  box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  transform: translateY(-3px);
+}
+
+/* table end*/
+/* addfunds pages start */
+.addfundspage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #646d7e;
+}
+.Deposit_to_account {
+  height: 13vh;
+  background-color: #52595d;
+  padding: 5px;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bitcoin_addfunds_image {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.make_payment_div {
+  width: 40%;
+  background-color: #2c3e50;
+  padding: 5px;
+  color: white;
+}
+.make_payment_div h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffff;
+  font-size: 18px;
+  font-family: helvitica neue, Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.make_payment_div p {
+  color: rgb(9, 248, 248);
+  font-size: 14px;
+  font-family: helvetica neue, helvitica, Arila serif;
+}
+.addfunds_footer {
+  width: 100%;
+  background-color: #52595d;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.imgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img.qr_scan_code_img {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+.make_payment_div label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin: 0px 0px 5px;
+  font-size: 14px;
+  font-family: helvetica neue, helvetica, Arial, Helvetica, sans-serif;
+}
+.make_payment_div input {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  outline: none;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.make_payment_div button {
+  background-color: #2c3e50;
+  padding: 5px;
+  color: white;
+}
+.make_payment_div h5 {
+  color: rgb(9, 248, 248);
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+img.exclamation {
+  height: 27px;
+  width: 27px;
+  margin-top: -3px;
+  margin-right: 5px;
+}
+h5.exclamationh5 {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ffffff !important;
+  text-align: center;
+}
+.loadingGifDIV {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+img.loaadingGif {
+  height: 20px;
+  width: 20px;
+}
+.Pay_not_complete {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+img.telegram_logo {
+  height: 42px;
+  width: 150px;
+  object-fit: contain;
+}
+.footer_addfunds_page {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* addfunds pages end */
