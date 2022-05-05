@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Home from "./home";
 
-export default function Chasebank() {
+export default function Visa() {
   return (
     <div className="PageContent">
       <Home />
-      <div className="tableDiv table-responsive content_centered colored_background push_downwards">
-        <table className="table table-responsive">
+      <div className="tableDiv  table-responsive content_centered colored_background push_downwards">
+        <table className="table">
           <thead>
             <tr>
-              <th scope="col">LOGS NAME</th>
-              <th scope="col">Description</th>
-              <th scope="col">includes</th>
-              <th scope="col">Balances</th>
+              <th scope="col">CARD TYPE</th>
+              <th scope="col">CARD BIN</th>
+              <th scope="col"> INCLUDES</th>
+              <th scope="col"> COUNTRY</th>
               <th scope="col">price</th>
               <th scope="col">status</th>
               <th scope="col">Buy now</th>
@@ -21,15 +21,15 @@ export default function Chasebank() {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Credit Card</th>
+              <td>4120611*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$1,354.21</td>
-              <td>$111</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -42,15 +42,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Credit Card</th>
+              <td>4037840*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$1,532.74</td>
-              <td>$140</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -63,15 +63,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Debit Card</th>
+              <td>4366182*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$1,828.83</td>
-              <td>$160</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -84,15 +84,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Debit Card</th>
+              <td>4224960*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$2,195.53</td>
-              <td>$213</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -105,15 +105,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Debit Card</th>
+              <td>4599540*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$2,523.48</td>
-              <td>$230</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -126,15 +126,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Debit Card</th>
+              <td>4552250*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$2,835.00</td>
-              <td>$253</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -147,15 +147,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Debit Card</th>
+              <td>4426309*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$3.027.01</td>
-              <td>$309</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -168,15 +168,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Debit Card</th>
+              <td>4551200*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$3,263.55</td>
-              <td>$335</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -189,15 +189,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Credit Card</th>
+              <td> 476184313*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$3,474.90</td>
-              <td>$360</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -210,15 +210,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Credit Card</th>
+              <td> 4436280*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$3,870.44</td>
-              <td>$370</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -231,15 +231,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Credit Card</th>
+              <td> 4737030*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$1,353.75</td>
-              <td>$350</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -252,15 +252,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
-              <td>Chase Savings Account</td>
+              <th scope="row">Credit Card</th>
+              <td> 4436280*******</td>
               <td>
                 {" "}
-                Onine Access,Email Access,, Security Questions , And Answers
-                SSN, Card Infomation, ,Address, Support Pin
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
               </td>
-              <td>$3,585.43</td>
-              <td>$342</td>
+              <td>USA</td>
+              <td>$50</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -272,14 +272,47 @@ export default function Chasebank() {
                 </Link>
               </td>
             </tr>
-            <tr className="table_last_row">
-              <th scope="col">LOGS NAME</th>
-              <th scope="col">Description</th>
-              <th scope="col">includes</th>
-              <th scope="col">Balances</th>
-              <th scope="col">price</th>
-              <th scope="col">status</th>
-              <th scope="col">Buy now</th>
+            <tr>
+              <th scope="row">Credit Card</th>
+              <td> 4037840*******</td>
+              <td>
+                {" "}
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
+              </td>
+              <td>USA</td>
+              <td>$50</td>
+              <td title="live">
+                <div className="liveDot"></div>
+              </td>
+              <td>
+                {" "}
+                <Link to="/addfunds">
+                  {" "}
+                  <button className="Buy_now_btn">Buy Now</button>{" "}
+                </Link>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Credit Card</th>
+              <td> 4108740*******</td>
+              <td>
+                {" "}
+                First and last name, Bill Address,Zip Code Email, Phone Number,
+                Csv,VBV Pass, CVV Pass,SSN
+              </td>
+              <td>USA</td>
+              <td>$15</td>
+              <td title="live">
+                <div className="liveDot"></div>
+              </td>
+              <td>
+                {" "}
+                <Link to="/addfunds">
+                  {" "}
+                  <button className="Buy_now_btn">Buy Now</button>{" "}
+                </Link>
+              </td>
             </tr>
           </tbody>
         </table>

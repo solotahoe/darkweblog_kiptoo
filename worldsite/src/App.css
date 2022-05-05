@@ -121,9 +121,15 @@
 .fa-envelope-o {
   color: WHITE;
 }
+
 /* signuppage formating end */
 
 /* home page styling start */
+.fa-chevron-right {
+  float: right;
+  font-size: 10px;
+  margin-top: 5px;
+}
 .homePage {
   background: rgb(39, 232, 152);
   width: 100%;
@@ -133,10 +139,23 @@
   width: 100%;
   background: rgb(39, 232, 152);
 }
+.pageContent_unique {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(39, 232, 152);
+}
 /* home page styling end */
 
 /* horizontal menus start */
 
+.fa-chevron-down {
+  color: rgb(187, 184, 184);
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 .navbar {
   background: #0e1726;
   color: #fafafa;
@@ -227,6 +246,11 @@
   font-size: 22px;
   color: WHITE;
 }
+.menus_icons4 {
+  margin-right: 15px;
+  font-size: 22px;
+  color: WHITE;
+}
 .menus_icons2 {
   margin-right: 5px;
   font-size: 20px;
@@ -234,6 +258,38 @@
   position: absolute;
   right: 90%;
   top: 30%;
+}
+.menus_icons3 {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #1b55e2;
+}
+.drop_down_subcontent {
+  display: none;
+  position: absolute;
+  background: #0e1726;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  color: #0e1726;
+  white-space: nowrap;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+.sub_sub_menu {
+  position: absolute;
+  left: 90%;
+  top: 80%;
+}
+.sub_sub_menu2 {
+  position: absolute;
+  left: 90%;
+  top: 90%;
+}
+.with_other_submenu:hover .drop_down_subcontent {
+  display: block;
+  transition: all 0.5s ease-in-out;
 }
 /* horizontal menus end */
 
@@ -251,6 +307,49 @@
 .headerContent2 {
   display: flex;
   align-items: center;
+  position: relative;
+}
+.fa-sign-out {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.signOutDiv {
+  position: absolute;
+  top: 125%;
+  left: 40%;
+
+  font-size: 13px;
+  font-family: quicksand, sans-serif;
+  display: block;
+  color: #ebedf2;
+  font-size: 13px;
+  font-weight: 600;
+  height: 60px;
+  border-radius: 6px;
+  width: 105px;
+  background: #0e1726;
+  margin-top: 2px;
+  border: 1px solid #191e3a;
+  z-index: 9999;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%),
+    0 3px 5px -1px rgb(0 0 0 / 20%);
+
+  padding: 10px;
+  transition: visibility 0.2s ease-in-out;
+}
+.signOutDiv::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  transform: rotate(-30deg);
+  right: 3px;
+  background: #0e1726;
 }
 img.bitcoin_header_image {
   width: 37px;
@@ -346,15 +445,22 @@ img.bitcoin_header_image {
 }
 /* footer end 
 /* table start */
+
 .table > thead > tr > th {
   color: #d3d3d3;
   border: 2px solid #0e1726 !important;
   text-transform: uppercase;
+  text-align: center;
 }
 .table {
   color: #d3d3d3;
   border: 2px solid #0e1726;
   font-size: 12px;
+  width: 100% !important;
+  border: 2px solid red;
+}
+.table_cont {
+  width: 100%;
 }
 .table thead tr {
   border: 2px solid #0e1726 !important;
@@ -508,6 +614,10 @@ img.qr_scan_code_img {
   padding: 5px;
   color: white;
 }
+.errorsg {
+  color: red !important;
+  background: white;
+}
 .make_payment_div h5 {
   color: rgb(9, 248, 248);
   font-size: 14px;
@@ -559,3 +669,244 @@ img.telegram_logo {
   font-family: Arial, Helvetica, sans-serif;
 }
 /* addfunds pages end */
+/* media querries start */
+@media only screen and (min-width: 1009px) {
+  .divcontainer_screen_menu {
+    display: none;
+  }
+  .bars_holder {
+    display: none;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .divcontainer_screen_menu.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1009px) {
+  /* smaller screen menu start */
+  .fa-arrow-down {
+    float: right;
+  }
+  .card {
+    cursor: pointer;
+    font-size: 13px;
+    color: #3b3f5c;
+    font-weight: 600;
+    transition: 0.6s;
+    border-radius: 6px;
+    letter-spacing: 0;
+    margin-bottom: 0px;
+    background-color: #0e1726 !important;
+    outline: none !important;
+  }
+  .card:hover button {
+    text-decoration: none !important;
+    color: #fff;
+  }
+  .canadianbank {
+    margin-left: 20px;
+  }
+  .with_subs {
+    color: #1b55e2 !important;
+  }
+  .in_accordion_menu {
+    float: right;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-left: 2px;
+  }
+  .card button {
+    font-size: 13px;
+    width: 100%;
+    color: #888ea8;
+    outline: none !important;
+    text-align: left;
+
+    text-transform: capitalize !important;
+  }
+  .card button.collapsed :hover {
+    text-decoration: none !important;
+  }
+  .card h2 button.collapsed :hover {
+    text-decoration: none !important;
+  }
+
+  .card-body li {
+    padding: 12px 11px 12px 24px;
+    width: 100%;
+    font-family: quicksand sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fafafa;
+  }
+  .accordion {
+    background-color: #0e1726 !important;
+  }
+  .menu_haeder {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191e3a;
+  }
+  .menu_haeder img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  .menu_haeder h3 {
+    color: white;
+    font-size: 25px;
+    font-family: quicksand, sans-serif;
+    padding: 0px 12.8px;
+  }
+  h2.homeLogout {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888ea8;
+    margin-left: 45px;
+    line-height: 13px;
+    padding-top: 25px;
+  }
+  .bars_holder {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transition: all 0.2s ease;
+    width: 30px;
+    height: 30px;
+    background: #1b2e4b !important;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bars_holder_away {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 30px;
+    height: 30px;
+    background: #1b2e4b !important;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-bars {
+    color: white;
+    font-size: 24px;
+    z-index: 100;
+    cursor: pointer;
+  }
+  .divcontainer_screen_menu {
+    height: 100vh;
+    width: 0%;
+    overflow: scroll;
+    /* background: #3b3f5ca8 !important; */
+    background-color: transparent;
+    position: absolute;
+    transition: all 0.1s ease;
+    top: 20%;
+    left: 0;
+  }
+  .divcontainer_screen_menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dropdownMenu_smallscreen {
+    background: #060818 !important;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888ea8;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    top: -2%;
+    left: 0;
+    z-index: 5000;
+  }
+  /* smaller screen menu end */
+  .navbar {
+    display: none;
+  }
+  .Page_header {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0e1726;
+    position: fixed;
+    top: 0;
+  }
+  .headerContent2 p {
+    display: none;
+    color: #888ea8;
+    font-size: 13px;
+    font-family: quicksand, sans-serif;
+  }
+  .push_downwards {
+    margin-top: -70px;
+  }
+  .margin_smallscreens {
+    margin-top: 10px;
+  }
+  .content_centered {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -80px;
+  }
+  .make_payment_div {
+    width: 100%;
+    background-color: #2c3e50;
+    padding: 5px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 560px) {
+  .make_payment_div {
+    width: 60%;
+    background-color: #2c3e50;
+    padding: 5px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .make_payment_div {
+    width: 40%;
+    background-color: #2c3e50;
+    padding: 5px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .dropdownMenu_smallscreen {
+    background: red;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    top: -2%;
+    left: 0;
+  }
+}
+/* media querries end */
+@media only screen and (max-width: 550px) {
+  .bars_holder {
+    position: absolute;
+    top: 28%;
+    left: 67%;
+    transition: all 0.2s ease;
+    width: 30px;
+    height: 30px;
+    background: #1b2e4b !important;
+    z-index: 10000;
+  }
+}

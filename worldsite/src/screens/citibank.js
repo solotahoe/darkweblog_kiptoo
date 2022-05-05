@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Home from "./home";
 
-export default function Chasebank() {
+export default function Citibank() {
   return (
     <div className="PageContent">
       <Home />
       <div className="tableDiv table-responsive content_centered colored_background push_downwards">
-        <table className="table table-responsive">
+        <table className="table">
           <thead>
             <tr>
               <th scope="col">LOGS NAME</th>
@@ -21,15 +21,15 @@ export default function Chasebank() {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$1,354.21</td>
-              <td>$111</td>
+              <td>$1,422.83</td>
+              <td>$150</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -42,15 +42,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$1,532.74</td>
-              <td>$140</td>
+              <td>$1,530.33</td>
+              <td>$150</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -63,15 +63,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$1,828.83</td>
-              <td>$160</td>
+              <td>$1,633.53</td>
+              <td>$190</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -84,15 +84,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$2,195.53</td>
-              <td>$213</td>
+              <td>$2,185.59</td>
+              <td>$190</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -105,15 +105,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$2,523.48</td>
-              <td>$230</td>
+              <td>$2,185.59</td>
+              <td>$208</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -126,15 +126,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$2,835.00</td>
-              <td>$253</td>
+              <td>$2,423.48</td>
+              <td>$250</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -147,15 +147,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$3.027.01</td>
-              <td>$309</td>
+              <td>$2,755.41</td>
+              <td>$260</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -168,15 +168,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$3,263.55</td>
-              <td>$335</td>
+              <td>$3,027.01</td>
+              <td>$299</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -189,15 +189,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$3,474.90</td>
-              <td>$360</td>
+              <td>$3,163.56</td>
+              <td>$310</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -210,15 +210,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$3,870.44</td>
-              <td>$370</td>
+              <td>$3,674.90</td>
+              <td>$380</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -231,15 +231,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$1,353.75</td>
-              <td>$350</td>
+              <td>$4,117.86</td>
+              <td>$380</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -252,15 +252,15 @@ export default function Chasebank() {
               </td>
             </tr>
             <tr>
-              <th scope="row">Chase Bank Logs</th>
+              <th scope="row">Citi Bank Logs</th>
               <td>Chase Savings Account</td>
               <td>
                 {" "}
                 Onine Access,Email Access,, Security Questions , And Answers
                 SSN, Card Infomation, ,Address, Support Pin
               </td>
-              <td>$3,585.43</td>
-              <td>$342</td>
+              <td>$1,353.76</td>
+              <td>$120</td>
               <td title="live">
                 <div className="liveDot"></div>
               </td>
@@ -272,6 +272,7 @@ export default function Chasebank() {
                 </Link>
               </td>
             </tr>
+
             <tr className="table_last_row">
               <th scope="col">LOGS NAME</th>
               <th scope="col">Description</th>

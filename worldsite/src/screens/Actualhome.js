@@ -11,7 +11,7 @@ export default function Actualhome() {
       <div className="colored_background">
         <h4>Welcome, user</h4>
       </div>
-      <div className="colored_background push_downwards">
+      <div className="colored_background push_downwards margin_smallscreens">
         <p>
           <strong className="strong_welcome">Welcome</strong>
         </p>

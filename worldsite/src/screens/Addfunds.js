@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function Addfunds() {
   return (
@@ -32,7 +33,9 @@ export default function Addfunds() {
           <div>
             <input type="text" value="3JHeHfHL7ZAJxewgGS6HbvXZA9yQkiNWuP" />
           </div>
-          <button>Copy</button>
+          <CopyToClipboard text="3JHeHfHL7ZAJxewgGS6HbvXZA9yQkiNWuP">
+            <button>Copy</button>
+          </CopyToClipboard>
           <h5>
             Hello! user please note that the above payment adress is for bitcoin
             users only.
